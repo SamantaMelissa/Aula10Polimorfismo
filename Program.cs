@@ -6,7 +6,15 @@ namespace Aula10Polimorfismo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Mário : ");
+            Mario mario = new Mario();
+            mario.Correr();
+            mario.Pular();
+            
+            Console.WriteLine("Luigi : ");
+            Luigi luigi = new Luigi();
+            luigi.Correr();
+            luigi.Pular();
         }
     }
 }
